@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { ClientesModule } from './clientes/clientes.module';
 import { PipesModule } from './pipes/pipes.module';
 import { TemarioModule } from './temario/temario.module';
+import { PaisesModule } from './paises/paises.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TemarioModule } from './temario/temario.module';
     AppRoutingModule,
     ClientesModule,
     PipesModule,
-    TemarioModule
+    TemarioModule,
+    PaisesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
