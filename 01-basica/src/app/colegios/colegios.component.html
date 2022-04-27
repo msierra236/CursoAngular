@@ -14,7 +14,7 @@
 </button>
 
 <ul *ngIf="colegios.length > 0; else noHayColegios">
-    <li *ngFor="let colegio of colegios; let i = index">{{ i+1 }}-{{ colegio }}</li>
+    <li *ngFor="let colegio of colegios; index as i">{{ i+1 }}-{{ colegio }}</li>
     
 </ul>
 
